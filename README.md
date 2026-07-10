@@ -9,7 +9,6 @@ An AI-powered Flutter mobile application that detects a user's emotion from spee
 ![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-orange)
 ![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00)
 
----
 
 ## 📖 Overview
 
@@ -19,12 +18,10 @@ The speech emotion recognition model was trained using the **RAVDESS** and **CRE
 
 This project demonstrates the complete machine learning deployment pipeline, from data preprocessing and model training to mobile application integration and real-time inference.
 
----
 
 ## 🎥 Demo
+https://youtube.com/shorts/RWsWnFfwoRY?feature=share
 
-
----
 
 ## ✨ Features
 
@@ -36,7 +33,6 @@ This project demonstrates the complete machine learning deployment pipeline, fro
 -  Offline inference without requiring an internet connection
 -  Fast on-device prediction
 
----
 
 ## 🔄 System Workflow
 
@@ -65,7 +61,6 @@ Emotion Prediction
 Recommend Songs
 ```
 
----
 
 ## 🏗 System Architecture
 
@@ -86,7 +81,6 @@ The application consists of two major components:
 - Emotion Prediction
 - Song Recommendation
 
----
 
 ## Technologies Used
 | Category           | Technology            |
@@ -99,7 +93,6 @@ The application consists of two major components:
 | Dataset            | RAVDESS, CREMA-D      |
 | Version Control    | Git, GitHub           |
 
----
 
 ## 📂 Dataset
 This project uses two public speech emotion datasets:
@@ -116,3 +109,48 @@ https://github.com/CheyneyComputerScience/CREMA-D
 The datasets are not included in this repository due to licensing restrictions and repository size.
 Please download them from their official sources before running the project.
 
+
+## 📊 Model Evaluation
+
+### Confusion Matrix
+The confusion matrix illustrates the model's classification performance across the supported emotion classes.
+
+![Confusion Matrix](images/confusion-matrix.png)
+
+### Classification Report
+The classification report summarizes the model's Precision, Recall, F1-score, and overall Accuracy for each emotion category.
+
+![Classification Report](images/classification-report.png)
+
+### Training Performance
+Training and validation accuracy/loss during model training using the combined RAVDESS and CREMA-D datasets.
+
+![Training vs Validation](images/training-validation.png)
+
+## 🧠 Model Architecture
+The Speech Emotion Recognition model uses a CNN-BiLSTM architecture to learn both spatial and temporal features from extracted MFCC representations.
+
+![CNN-BiLSTM Summary](images/cnn-bilstm-summary.png)
+
+
+## 📱 Mobile Application
+
+### Home Screen
+The home screen allows users to start the speech emotion recognition process by recording their voice.
+
+![Home Screen](images/app-home.jpg)
+
+### Emotion Prediction & Music Recommendation
+After processing the recorded speech, the application predicts the user's emotion and recommends songs from a predefined playlist associated with the detected emotion.
+
+![Prediction Result](images/app-result.png)
+
+
+
+## 🚀 Future Improvements
+
+- Integrate Spotify API or other music streaming services.
+- Support multilingual speech emotion recognition.
+- Improve model performance using larger and more diverse datasets.
+- Personalize recommendations based on user preferences.
+- Add support for iOS devices.
