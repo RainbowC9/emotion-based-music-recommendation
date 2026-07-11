@@ -150,3 +150,16 @@ After processing the recorded speech, the application predicts the user's emotio
 - Improve model performance using larger and more diverse datasets.
 - Personalize recommendations based on user preferences.
 - Add support for iOS devices.
+
+
+## 🙏 Acknowledgements
+
+This project uses the following public datasets:
+- RAVDESS
+- CREMA-D
+
+Special thanks to the researchers and contributors who made these datasets publicly available.
+
+
+## 📄 License
+This project is licensed under the MIT License.
