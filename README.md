@@ -135,16 +135,12 @@ The Speech Emotion Recognition model uses a CNN-BiLSTM architecture to learn bot
 
 ## 📱 Mobile Application
 
-### Home Screen
 The home screen allows users to start the speech emotion recognition process by recording their voice.
-
-![Home Screen](images/app-home.jpg)
-
-### Emotion Prediction & Music Recommendation
 After processing the recorded speech, the application predicts the user's emotion and recommends songs from a predefined playlist associated with the detected emotion.
 
-![Prediction Result](images/app-result.png)
-
+| Home Screen | Emotion Prediction |
+|-------------|--------------------|
+| <img src="images/app-home.jpg" width="300"> | <img src="images/app-result.png" width="300"> |
 
 
 ## 🚀 Future Improvements
